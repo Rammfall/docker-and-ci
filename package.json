@@ -10,7 +10,7 @@
     "lint:js": "eslint ./src/**/*.ts --format stylish --color",
     "lint:css": "stylelint ./**/*.scss --fix",
     "lint": "npm run lint:js && npm run lint:css",
-    "postinstall": "tsc && node src/index.js"
+    "start": "tsc && node src/index.js"
   },
   "repository": {
     "type": "git",
