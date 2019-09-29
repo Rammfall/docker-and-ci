@@ -6,7 +6,10 @@
   "scripts": {
     "node-ts": "ts-node src/index.ts",
     "dev": "nodemon",
-    "test": "jest"
+    "test": "jest",
+    "lint:js": "eslint ./src/**/*.ts --format stylish --color",
+    "lint:css": "stylelint ./**/*.scss --fix",
+    "lint": "npm run lint:js && npm run lint:css"
   },
   "repository": {
     "type": "git",
