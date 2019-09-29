@@ -1,0 +1,12 @@
+{
+  "target": "ES5",
+  "module": "es6",
+  "declaration": true,
+  "outDir": "./dist",
+  "rootDir": "./src",
+  "composite": true,
+  "strict": true,
+  "moduleResolution": "node",
+  "allowSyntheticDefaultImports": true,
+  "esModuleInterop": true
+}
