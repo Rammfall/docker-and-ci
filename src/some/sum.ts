@@ -3,3 +3,11 @@ const sum = (firstType: number, secondType: number): number => {
 };
 
 export default sum;
+
+let result;
+
+fetch('https://github.com', { data: 5 }).then((res) => {
+  result = res;
+});
+
+console.log(result);

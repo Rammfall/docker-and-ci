@@ -10,7 +10,7 @@ app.use('/', (req: express.Request, res: express.Response) => {
 
 app.listen(PORT, () => {
   // eslint-disable-next-line no-console
-  console.log(`Server running on ${PORT} port`);
+  console.log(`Server running on ${PORT} port test`);
 });
 
 export default app;
