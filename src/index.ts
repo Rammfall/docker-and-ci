@@ -15,7 +15,11 @@ app.listen(PORT, () => {
   // eslint-disable-next-line no-consoles
 =======
 
-app.use('/testone', (req: express.Request, res: express.Response) => {
+app.use('/testtho', (req: express.Request, res: express.Response) => {
+  res.json({ status: 200 });
+});
+
+app.use('/testthonew', (req: express.Request, res: express.Response) => {
   res.json({ status: 200 });
 });
 
