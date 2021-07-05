@@ -7,11 +7,24 @@ const app = express();
 app.use('/', (req: express.Request, res: express.Response) => {
   res.json({ status: 200 });
 });
+<<<<<<< HEAD
 app.use('/', (req: express.Request, res: express.Response) => {
   res.json({ status: 200 });
 });
 app.listen(PORT, () => {
   // eslint-disable-next-line no-consoles
+=======
+
+app.use('/testtho', (req: express.Request, res: express.Response) => {
+  res.json({ status: 200 });
+});
+
+app.use('/testthonew', (req: express.Request, res: express.Response) => {
+  res.json({ status: 200 });
+});
+
+app.listen(PORT, () => {
+>>>>>>> testone commit
   console.log(`Server running on ${PORT} port test`);
 });
 
